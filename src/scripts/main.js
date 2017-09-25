@@ -5,7 +5,10 @@ var $ = require( 'jquery' );
 
 // Import libraries
 import 'slick-carousel';
-import 'izimodal';
+
+import whatInput from 'what-input';
+//@TODO import only used components
+import Foundation from 'foundation-sites';
 
 // Import custom modules
 import App from'./modules/app.js';
